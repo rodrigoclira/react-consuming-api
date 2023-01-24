@@ -5,7 +5,6 @@ import './App.css';
 // https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/
 
 function App() {
-  let result="nothing";
   const [posts, setPosts] = React.useState([]);
 
   useEffect(() => {
